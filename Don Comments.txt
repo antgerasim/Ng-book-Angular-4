@@ -1,1 +1,13 @@
-weiter mit 83 Deployment ddd
+weiter mit 139 Deploying the App
+
+Inputs and Outputs
+When we use products-list we’re using a key feature of Angular components: inputs and outputs:
+1 <products-list
+2 [productList]="products" <!-- input -->
+3 (onProductSelected)="productWasSelected($event)"> <!-- output -->
+4 </products-list>
+The [squareBrackets] pass inputs and the (parentheses) handle outputs.
+Data flows in to your component via input bindings and events flow out of your component through
+output bindings.
+p117
+
